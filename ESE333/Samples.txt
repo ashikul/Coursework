@@ -1,0 +1,14 @@
+Commands to Test
+
+ls
+ls -al
+man date > out1
+more < out1
+xterm &
+cat out1 | more
+cat -n < out1 | more
+grep -i os < out1 > out2 &
+man date | grep -i os > out3
+cat -n < out1 | grep -i os > out4 &
+cd
+two pipes

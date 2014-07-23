@@ -1,0 +1,17 @@
+number  city           value    position x  position y
+1       Athens         1000         0          0
+2	Atlantic_City  1200         0          1
+3 	Beijing	       1500         0          2
+4 	Berlin	       1400         0          3
+5 	Chicago        1600         0          4
+6 	Dubai_City     1100         1          4
+7 	Florence       800          2          4
+8 	Hong_Kong      1200         3          4
+9  	London         1300         4          4
+10	Los_Angeles    2000         4          3
+11  	Milan          1000         4          2
+12 	Montreal       900          4          1
+13 	Moscow         1700         4          0
+14 	New_York       2000         3          0
+15      Seoul          1800	    2          0
+16      Paris          1100         1          0

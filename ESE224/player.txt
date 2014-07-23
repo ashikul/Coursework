@@ -1,0 +1,5 @@
+playID   name     money
+1       Newton   10000
+2       Einstein 10000
+3       Nyquist	 10000
+4       Shannon  10000
