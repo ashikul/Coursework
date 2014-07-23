@@ -97,7 +97,7 @@ int main()
 
 #pragma region "MAIN WHILE LOOP"
 
-		//Game Start
+	//Game Start
 	cout << "Welcome to Monopoly!" << endl;
 	//Ask for Game Turns
 	cout <<  "Please enter game turns :" ;
@@ -167,7 +167,7 @@ int main()
 						arrayPlayer[1].loseMoney(cost); //Charge City Value Cost
 						cout << "\n" << endl;
 						cout << arrayPlayer[i].getName() << " has purchased " <<
-							arrayCity[newPosition].getCityName() << " for $" << arrayCity[newPosition].getValue() << endl;
+						arrayCity[newPosition].getCityName() << " for $" << arrayCity[newPosition].getValue() << endl;
 
 
 					} else {
@@ -192,7 +192,7 @@ int main()
 						arrayPlayer[i].loseMoney(cost); //Purchase Cost
 						cout << "\n" << endl;
 						cout << arrayPlayer[i].getName() << " has purchased " <<
-							arrayCity[newPosition].getCityName() << " for $" << arrayCity[newPosition].getValue() << endl;
+						arrayCity[newPosition].getCityName() << " for $" << arrayCity[newPosition].getValue() << endl;
 
 					} else {
 
@@ -221,13 +221,13 @@ int main()
 
 #pragma region "Check if Good Tile"
 			if ((newPosition == 2)|
-				(newPosition == 6)|
-				(newPosition == 10)|
-				(newPosition == 14)){
+					(newPosition == 6)|
+					(newPosition == 10)|
+					(newPosition == 14)){
 
-					double gain = cardGame(); //Method for Card Mini-Game
-					arrayPlayer[i].gainMoney(gain); 
-					cout << arrayPlayer[i].getName() << " gained $" << gain << endl;
+				double gain = cardGame(); //Method for Card Mini-Game
+				arrayPlayer[i].gainMoney(gain); 
+				cout << arrayPlayer[i].getName() << " gained $" << gain << endl;
 
 			}
 #pragma endregion
@@ -235,12 +235,12 @@ int main()
 #pragma region "Check if Bad Tile"
 
 			if ((newPosition == 3)|
-				(newPosition == 7)|
-				(newPosition == 11)|
-				(newPosition == 14)){
+					(newPosition == 7)|
+					(newPosition == 11)|
+					(newPosition == 14)){
 
-					arrayPlayer[i].loseMoney(500);
-					cout << "Landed on a bad tile! " << arrayPlayer[i].getName() << " lost $500!" << endl;
+				arrayPlayer[i].loseMoney(500);
+				cout << "Landed on a bad tile! " << arrayPlayer[i].getName() << " lost $500!" << endl;
 			}
 
 			arrayPlayer[i].print(cout);

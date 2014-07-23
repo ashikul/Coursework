@@ -1,7 +1,7 @@
 /*---------------------------------------------------------*/
 /*Card Header */
 /* filename City.h */
- 
+
 #ifndef CARDX_H
 #define CARDX_H
 /* Card Class declaration */
@@ -13,7 +13,7 @@ public:
 	//Constructors
 	Card(); //Default
 	Card(char aSuit,
-		int aRank);//parameterized
+	int aRank);//parameterized
 	//Accessors
 	int getRank() const;
 	char getSuit() const;

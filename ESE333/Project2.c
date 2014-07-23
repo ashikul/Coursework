@@ -26,17 +26,17 @@
 *---Conditional Signals (cond_signal())
 *
 *
-*To run the program:
-*-MUST be in jessica server for compile to work
+*To run the program remotely properly:
+*-MUST be in the jessica server for the compile to work
 *-NOT labXX.ece.stonybrook.edu server
 *-ex: [ug001@jessica ~ ]
 *-NOT [ug001@lab38.ece.stonybrook.edu ~ ]
 *
 *
 *Next:
-*-Have file Project2Alam.c in current directory
-*-to compile, type "gcc -o Project2Alam Project2Alam.c"
-*-to run, type "./Project2Alam"
+*-Have file Project2.c in current directory
+*-to compile, type "gcc -o Project2 Project2.c"
+*-to run, type "./Project2"
 *-Program will automatically start copying file1 into file2
 *-There is an error message if there is no "file1" in current directory
 *

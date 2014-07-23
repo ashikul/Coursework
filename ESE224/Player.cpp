@@ -7,9 +7,9 @@
 using namespace std;
 //Constructors.
 Player::Player() :
-	id(0),money(0),name(""),position(0)  
+id(0),money(0),name(""),position(0)  
 {} 
-//Accessors
+
 
 //Mutators
 void Player::setId (int v)

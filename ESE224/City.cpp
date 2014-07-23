@@ -7,15 +7,15 @@
 using namespace std;
 //Constructors.
 City::City() :
-	id(0),ownerId(0),value(0),charge(0),xcoord(0),ycoord(0),
-	cityname(""),owner(""),nextCity(nullptr),tile("*")
+id(0),ownerId(0),value(0),charge(0),xcoord(0),ycoord(0),
+cityname(""),owner(""),nextCity(nullptr),tile("*")
 {}
 City::City(int idN, string ncityName, double nValue,
-		   int x, int y) : 
+int x, int y) : 
 id(idN),ownerId(0),value(nValue),charge(value/5.0),xcoord(x),ycoord(y),
-	cityname(ncityName),owner(""),nextCity(nullptr),tile("*")
+cityname(ncityName),owner(""),nextCity(nullptr),tile("*")
 {}
-//Accessors
+
 
 //Mutators
 void City::setId (int v)

@@ -31,8 +31,8 @@ private:
 public:
 	City(); //Default constructor
 	City(int idN, string ncityName, double nValue,
-		int x, int y); //Parameterized constructor
- 
+	int x, int y); //Parameterized constructor
+
 	//Accessors
 	int getId() const {return id;}
 	int getOwnerId() const {return ownerId;}
@@ -45,7 +45,7 @@ public:
 	string getTile() const {return tile;}
 	City* getNextCity() const {return nextCity;}
 
- 
+
 	//Mutators
 	void setId(int v);
 	void setOwnerId(int v);
@@ -61,7 +61,7 @@ public:
 	//Additional Methods
 	void print(ostream& out) const; //Print City's Attributes
 
- 
+
 };
 #endif
 /*---------------------------------------------------------*/
