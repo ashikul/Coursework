@@ -1,0 +1,73 @@
+pic2bin.tif
+There are 7 unique components
+
+Component 1
+	Area: 123
+	Perimeter: 58
+	Position: 13.308943, -12.463415
+	Theta: 36.651621
+	Ro: 3.237489
+	Maximum 2nd moment: 548.716554
+	Minimum 2nd moment: 42.243209
+	Elongation: 12.989462
+
+Component 2
+	Area: 129
+	Perimeter: 59
+	Position: 35.759690, -14.062016
+	Theta: 36.601865
+	Ro: 20.323319
+	Maximum 2nd moment: 561.893666
+	Minimum 2nd moment: 39.408917
+	Elongation: 14.258034
+
+Component 3
+	Area: 120
+	Perimeter: 46
+	Position: 67.158333, -14.458333
+	Theta: 36.601253
+	Ro: 45.294336
+	Maximum 2nd moment: 541.822707
+	Minimum 2nd moment: 37.735091
+	Elongation: 14.358590
+
+Component 4
+	Area: 108
+	Perimeter: 38
+	Position: 54.833333, -31.379630
+	Theta: 36.724728
+	Ro: 25.185772
+	Maximum 2nd moment: 513.424701
+	Minimum 2nd moment: 33.219144
+	Elongation: 15.455687
+
+Component 5
+	Area: 166
+	Perimeter: 40
+	Position: 21.590361, -32.572289
+	Theta: 36.738626
+	Ro: -2.181697
+	Maximum 2nd moment: 637.228118
+	Minimum 2nd moment: 50.359736
+	Elongation: 12.653524
+
+Component 6
+	Area: 81
+	Perimeter: 32
+	Position: 43.000000, -39.000000
+	Theta: 36.753679
+	Ro: 11.115596
+	Maximum 2nd moment: 444.309014
+	Minimum 2nd moment: 23.237900
+	Elongation: 19.120016
+
+Component 7
+	Area: 96
+	Perimeter: 36
+	Position: 30.500000, -50.500000
+	Theta: 36.829084
+	Ro: -5.858184
+	Maximum 2nd moment: 483.799089
+	Minimum 2nd moment: 30.239737
+	Elongation: 15.998786
+	Elongation: 12.187286
